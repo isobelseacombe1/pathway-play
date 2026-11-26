@@ -1,0 +1,21 @@
+{
+  "name": "your-service-name-goes-here",
+  "description": "Rapidly create HTML prototypes of NHS websites and services.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "watch": "echo 'run this instead: npm start'"
+  },
+  "author": "https://github.com/nhsuk/",
+  "license": "MIT",
+  "dependencies": {
+    "nhsuk-frontend": "^10.7.2",
+    "nhsuk-prototype-kit": "^8.6.0"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "^22.16.0 || ^24.11.0 || >= 26.13.0"
+  }
+}
